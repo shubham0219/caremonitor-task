@@ -35,6 +35,8 @@ export class CaremonitorService {
   }
 
   getVaccinationStats(): Observable<IStateVaccinationMetrics> {
-    return this.http.get<IStateVaccinationMetrics>(`${this.apiURl}state_vaccination_metrics.json`);
+    return this.http.get<IStateVaccinationMetrics>(
+      `${this.apiURl}state_vaccination_metrics.json`
+    );
   }
 }
