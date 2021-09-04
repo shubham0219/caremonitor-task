@@ -1,0 +1,92 @@
+#container {
+  width: 100%;
+  height: 95vh !important;
+  overflow: hidden !important;
+}
+
+.statistics .statistics_wrapper {
+  display: flex;
+  height: 9.125rem;
+}
+.statistics__item {
+  width: 20%;
+  border-right: 0.5px solid #d3d3d3;
+  padding: 0rem 1.25rem 0rem 1.25rem;
+  background-color: #f4f4f4;
+}
+
+.statistics .statistics_wrapper .statistics__item:first-child {
+  box-shadow: none;
+}
+
+.statistics .statistics_wrapper .statistics__item--count {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.statistics .statistics_wrapper .statistics__item--header {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding-bottom: 0.5rem;
+  min-height: 3.125rem;
+}
+
+.links_blue {
+  font-weight: 600;
+  color: #002664;
+  text-decoration: none;
+  cursor: pointer;
+}
+.border-onpage {
+  font-size: 1rem;
+  font-weight: 600;
+  border-left: 4px solid #002664;
+}
+.section-3-border {
+  padding: 0.313rem;
+  border: 1px solid gray;
+}
+.number {
+  text-align: center;
+  font-size: 2.813rem;
+  padding: 0.625rem;
+  margin: 0;
+  color: #002664;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+.border-div-back {
+  background-color: burlywood;
+  border: 1px solid gray;
+}
+
+.card {
+  padding-bottom: 1.375rem;
+  height: 85%;
+  border: none;
+}
+
+.card-color {
+  background-color: #f4f4f7;
+}
+
+.font-weight-16 {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.bolderFont {
+  font-weight: 800;
+  font-size: x-large;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+}
